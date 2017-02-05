@@ -9,5 +9,9 @@
   h2, h3{ page-break-after: avoid; }
   @viewport { 
   width: device-width; 
+   @media only screen and (max-width: 480px) {
+  body { font-size: 12px;}
+  header p { padding-left: 4.5em;}
+}
   }
 }
